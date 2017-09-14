@@ -95,13 +95,13 @@ public class MainActivity extends AppCompatActivity
             //Metronome is running
             Singleton.getInstance().getMetronome().stop();
             Button mButton = (Button)findViewById(R.id.activate_metronome);
-            mButton.setText("START");
+            mButton.setText(R.string.start_metronome);
         }
         else{
             Singleton.getInstance().getMetronome().setBpmTextView((TextView) findViewById(R.id.bpmTextView));
             Singleton.getInstance().getMetronome().start(this);
             Button mButton = (Button)findViewById(R.id.activate_metronome);
-            mButton.setText("STOP");
+            mButton.setText(R.string.stop_metronome);
         }
     }
 

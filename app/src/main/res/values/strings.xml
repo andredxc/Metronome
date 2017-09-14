@@ -13,4 +13,5 @@
     <string name="timeMinusOne">-1</string>
     <string name="timeMinusFive">-5</string>
     <string name="timePlusFive">+5</string>
+    <string name="stop_metronome">STOP</string>
 </resources>
